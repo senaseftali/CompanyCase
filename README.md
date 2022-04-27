@@ -54,5 +54,8 @@ Projeyi indiriniz.
 ![image](https://user-images.githubusercontent.com/30753850/165464240-c498f479-5479-4ab8-908e-0e3053c3abef.png)
 
 
+![image](https://user-images.githubusercontent.com/30753850/165467060-583a0c2b-99d9-4fef-8d95-59db4ba8956c.png)
+
+![image](https://user-images.githubusercontent.com/30753850/165466816-8bf50d7f-f3b7-47ee-945b-ac4458764a1b.png)
 
 
