@@ -1,0 +1,31 @@
+version: "3.8"
+services:
+  productdb:
+    image: mongo
+  identitydb:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+  orderdb:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+  rabbitmq:
+    image: rabbitmq:3.8.14-management
+  product.api:
+    image: product_api_image
+    build:
+      context: .
+      dockerfile: Services/Product/CompanyCase.Services.Product.API/Dockerfile
+  identityserver.api:
+    image: identityserver_api_image
+    build:
+      context: .
+      dockerfile: IdentityServer/CompanyCase.IdentityServer/Dockerfile
+  order.api:
+    image: order_api_image
+    build:
+      context: .
+      dockerfile: Services/Order/CompanyCase.Services.Order.API/Dockerfile
+
+volumes:
+  productdb_volume:
+  discount_volume:
+  identitydb_volume:
+  orderdb_volume:
